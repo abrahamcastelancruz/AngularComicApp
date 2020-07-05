@@ -3,8 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'my-app';
+  nombre = 'Abraham Castelan Cruz';
+  edad = 21;
+  correo = 'L17200745@pachuca.tecnm.mx';
 }
